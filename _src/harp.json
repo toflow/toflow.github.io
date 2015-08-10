@@ -1,12 +1,12 @@
 {
   "domains": [""],
   "globals": {
-    "site_title": "My Harp Blog",
-    "twitter": "HarpPlatform",
-    "site_url": "http://example.com",
+    "site_title": "TRUST-Saude Blog",
+    "twitter": "",
+    "site_url": "blog.trustsaude.pt",
     "disqus": {
-      "enabled": false,
-      "shortname": ""
+      "enabled": true,
+      "shortname": "trustsaude"
     },
     "sitemap": {
       "enabled": true,

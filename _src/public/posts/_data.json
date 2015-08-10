@@ -1,8 +1,11 @@
 {
   "hello-world": {
-    "title": "Hello World"
+    "title": "Hello World",
+    "date": "2014-02-31",
+    "published": true
   },
   "hello-markdown": {
-    "title": "Markdown Post"
+    "title": "Markdown Post",
+    "published": true
   }
 }
