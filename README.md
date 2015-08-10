@@ -5,8 +5,8 @@ http://trustsaude.github.io/blog/
 
 #### Writing a new article
 
-1. Create new file in `_src/articles`.
-2. Add metadata of article in `_src/articles/_data.json`.
+1. Create new file in `_src/public/posts`.
+2. Add metadata of article in `_src/public/posts/_data.json`.
 3. Run `harp server` from inside `_src` and keep iterating until article finished.
 
 #### Deploying
