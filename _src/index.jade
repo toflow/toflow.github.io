@@ -1,3 +1,9 @@
 h1 Welcome to Harp.
 h3 This is yours to own. Enjoy.
-h2 Testing a deploy now.
+h2 Testing a deploy now yo.
+
+ul
+  each article, slug in public.articles._data
+    if article.published!==false
+      li
+        a(href="/articles/#{ slug }") #{ article.title }
