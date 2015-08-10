@@ -3,11 +3,11 @@ http://trustsaude.github.io/blog/
 #### Dependencies
     sudo npm install -g harp
 
-#### Writing a new article
+#### Writing a new post
 
 1. Create new file in `_src/public/posts`.
-2. Add metadata of article in `_src/public/posts/_data.json`.
-3. Run `harp server` from inside `_src` and keep iterating until article finished.
+2. Add metadata of post in `_src/public/posts/_data.json`.
+3. Run `harp server` from inside `_src` and keep iterating until post finished.
 
 #### Deploying
 
