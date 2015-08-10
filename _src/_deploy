@@ -1,0 +1,8 @@
+# change dirs to _src if not already in there
+if [ ${PWD##*/} != "_src" ]; then
+    cd _src
+fi
+
+git add ..
+git commit -m "Deploy"
+git push

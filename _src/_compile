@@ -1,0 +1,12 @@
+# change dirs to _src if not already in there
+if [ ${PWD##*/} != "_src" ]; then
+    cd _src
+fi
+
+# move README away, because otherwise harp compile removes it
+[ -f ../README.md ] && mv ../README.md _README.md
+
+harp compile ./ ../
+
+# and move README back in, so that it gets rendered in GH
+[ -f _README.md ] && mv _README.md ../README.md
