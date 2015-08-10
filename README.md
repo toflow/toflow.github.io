@@ -1,4 +1,4 @@
-http://trustsaude.github.io/blog/
+http://trustsaude.github.io
 
 #### Dependencies
     sudo npm install -g harp
